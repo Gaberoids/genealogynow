@@ -27,7 +27,10 @@
     }
   }
 
- 
+ /* navbar */
+.navbar-color-c {
+    background-color: rgb(23 162 184 / 50%);
+}
 
   .btn .fa {
     margin-left: 3px;
@@ -55,15 +58,24 @@
     line-height: 1.7;
   }
 
-  .rgba-gradient {
-    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
-    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  }
-
 .cover-content-c{
     margin-top: 60px;
 }
+
+.img-fluid-c {
+    max-width: 300px;
+    height: auto;
+    }
+
+.image-genious-div-c {
+    max-width: 300px;
+    margin:auto;
+    }
+
+.font-banner-c {
+    color: white;
+}
+
+
+    
 /* --------------------------------cover. banner and menu navigation */
