@@ -1,81 +1,41 @@
-/* all classess and ids that ends with "...-c" are custom made by developer  */
+/* font for tittle subtitle*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-/* --------------------------------cover. banner and menu navigation */
+/* Fonts for website */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
-  html,
-  body,
-  header,
-  .view {
-    height: 600px;
-  }
-
-  @media (max-width: 740px) {
-    html,
-    body,
-    header,
-    .view {
-      height: 1000px;
-    }
-  }
-  @media (min-width: 800px) and (max-width: 850px) {
-    html,
-    body,
-    header,
-    .view {
-      height: 600px;
-    }
-  }
-
- /* navbar */
-.navbar-color-c {
-    background-color: rgb(23 162 184 / 50%);
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
-  .btn .fa {
-    margin-left: 3px;
-  }
-
-  .top-nav-collapse {
-    background-color: #424f95 !important;
-  }
-
-  .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-  }
-
-  @media (max-width: 991px) {
-   .navbar:not(.top-nav-collapse) {
-    background: #424f95 !important;
-   }
-  }
-
-  .btn-white {
-    color: black !important;
-  }
-
-  h6 {
-    line-height: 1.7;
-  }
-
-.cover-content-c{
-    margin-top: 60px;
+#title-div {
+    text-align: center;
 }
 
-.img-fluid-c {
-    max-width: 300px;
-    height: auto;
-    }
-
-.image-genious-div-c {
-    max-width: 300px;
-    margin:auto;
-    }
-
-.font-banner-c {
-    color: white;
+#logo {
+    height: 75px;
+    vertical-align: text-bottom;
 }
 
-
+#site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    display: inline-block;
+    margin-top: 40px;
+    padding-left: 5px;
+    margin-bottom: 10px;
     
-/* --------------------------------cover. banner and menu navigation */
+}
+
+#site-subtitle {
+    font-size: 30px;
+    margin-top: 1px;
+    letter-spacing: 5px;}
+
+    /* Banner or cover */
+
+.banner {
+    background-image: url("../images/cover-trees.jpg");
+    width: 100%
+}

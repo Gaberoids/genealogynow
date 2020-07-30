@@ -3,79 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Geneology Genious</title>
+    <title>GeneologyConsultant</title>
 </head>
 <body>
-    <header>
+    <header id="title-div">
+        <!-- log provided by https://icons8.com/icons/set/tree -->
+		<img id="logo" src="https://img.icons8.com/ios-filled/50/000000/tms-tree.png"/><h1 id="site-title"> Genious</h1>
+        <h3 id="site-subtitle">Geneology Consultant</h3>
+	</header>
 
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-    <div class="container navbar-color-c">
-      <a class="navbar-brand" href="#">
-        <strong>GeneologyGenious</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
-        aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Full Page Intro -->
-  <div class="view" style="background-image: url('assets/images/cover-trees.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-    <!-- Mask & flexbox options-->
-    <div class="mask d-flex justify-content-center align-items-center">
-      <!-- Content -->
-      <div class="container">
-        <!--Grid row-->
-        <div class="row cover-content-c">
-          
-          <!--Grid column Genious Image-->
-          <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight image-genious-div-c" data-wow-delay="0.3s">
-            <img src="assets/images/genious_pic.png" alt="" class="img-fluid-c">
-          </div>
-          <!--Grid column-->
-          <!--Grid column-->
-          <div class="col-md-6 text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft font-banner-c" data-wow-delay="0.3s">
-            <h1 class="h1-responsive font-weight-bold mt-sm-5">Make purchases with our app </h1>
-            <hr class="hr-light">
-            <h6 class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi
-              fuga nesciunt
-              dolorum nulla magnam veniam sapiente! Commodi sequi non animi ea dolor molestiae
-              iste.</h6>
-            <a class="btn btn-white btn-rounded">Download</a>
-            <a class="btn btn-outline-white btn-rounded">Learn more</a>
-          </div>
-          <!--Grid column-->
+    <!-- cover -->
+    <div class="container banner">
+        <div class="row">
+            <div class="col genious-img">
+            
+            </div>
+            <div class="col genious-intro">
+                <h2>John F. Smith</h2>
+                <h3>Geneology Specialit</h3>
+                <p>John has been working on geneology since 2015. 
+                Since then it has been his main activity 
+                and he has added over 3000 new names into his geneology tree</p>
+            </div>
         </div>
-        <!--Grid row-->
-      </div>
-      <!-- Content -->
     </div>
-    <!-- Mask & flexbox options-->
-  </div>
-  <!-- Full Page Intro -->
-</header>
-<!-- Main navigation -->
+    <!-- end cover -->
+
+<p>Special thanks to <a href="https://icons8.com/icon/34828/tms-tree">TMS Tree icon by Icons8</a> for providing the cool logo for this website</p>
 </body>
 </html>
