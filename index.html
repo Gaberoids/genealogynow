@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>GeneologyConsultant</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="title-div">
-        <!-- log provided by https://icons8.com/icons/set/tree -->
-		<img id="logo" src="https://img.icons8.com/ios-filled/50/000000/tms-tree.png"/><h1 id="site-title"> Genious</h1>
-        <h3 id="site-subtitle">Geneology Consultant</h3>
-	</header>
+      <!-- log provided by https://icons8.com/icons/set/tree -->
+      <img
+        id="logo"
+        src="https://img.icons8.com/ios-filled/50/000000/tms-tree.png"
+      />
+      <h1 id="site-title">Genious</h1>
+      <h3 id="site-subtitle">Geneology Consultant</h3>
+    </header>
 
     <!-- cover -->
-    <div class="container banner">
-        <div class="row">
-            <div class="col genious-img">
-            
+    <div class="container">
+      <div class="row cover">
+        <div class="col-4 genious-img"></div>
+        <!-- This is the beggining of the everthing inside the tree image -->
+        <div class="col-8 genious-intro banner">
+          <!-- This is include title subtitle and speciaty table -->
+          <div class="covercontent">
+            <div class="row cover-title-subtitle">
+              <h2>John F. Smith</h2>
+              <h3>Geneology Specialist</h3>
             </div>
-            <div class="col genious-intro">
-                <h2>John F. Smith</h2>
-                <h3>Geneology Specialit</h3>
-                <p>John has been working on geneology since 2015. 
-                Since then it has been his main activity 
-                and he has added over 3000 new names into his geneology tree</p>
+
+            <div class="cover-table">
+              <table>
+                <tr>
+                  <h6>Areas of Expertise</h6>
+                </tr>
+                <tr>
+                  <td>FamilySearch.com</td>
+                  <td>Ancestry.com</td>
+                </tr>
+                <tr>
+                  <td>Microfilms</td>
+                  <td>Portugal</td>
+                </tr>
+                <tr>
+                  <td>Spain</td>
+                  <td>Italy</td>
+                </tr>
+              </table>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- end cover -->
 
-<p>Special thanks to <a href="https://icons8.com/icon/34828/tms-tree">TMS Tree icon by Icons8</a> for providing the cool logo for this website</p>
-</body>
+    <p>
+      Special thanks to
+      <a href="https://icons8.com/icon/34828/tms-tree"
+        >TMS Tree icon by Icons8</a
+      >
+      for providing the cool logo for this website
+    </p>
+  </body>
 </html>

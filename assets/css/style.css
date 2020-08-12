@@ -1,41 +1,103 @@
-/* font for tittle subtitle*/
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*  --------------------------- ---------------------------font for tittle subtitle*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 
-/* Fonts for website */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*  --------------------------- ---------------------------Fonts for website */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 #title-div {
-    text-align: center;
+  text-align: center;
 }
 
 #logo {
-    height: 75px;
-    vertical-align: text-bottom;
+  height: 75px;
+  vertical-align: text-bottom;
 }
 
 #site-title {
-    font-family: 'Dancing Script', cursive;
-    font-size: 75px;
-    display: inline-block;
-    margin-top: 40px;
-    padding-left: 5px;
-    margin-bottom: 10px;
-    
+  font-family: "Dancing Script", cursive;
+  font-size: 75px;
+  display: inline-block;
+  margin-top: 40px;
+  padding-left: 5px;
+  margin-bottom: 10px;
 }
 
 #site-subtitle {
-    font-size: 30px;
-    margin-top: 1px;
-    letter-spacing: 5px;}
-
-    /* Banner or cover */
-
-.banner {
-    background-image: url("../images/cover-trees.jpg");
-    width: 100%
+  font-size: 30px;
+  margin-top: 1px;
+  margin-bottom: 60px;
+  letter-spacing: 5px;
 }
+
+/*  --------------------------- --------------------------- Banner or cover */
+
+.cover {
+  height: 400px; 
+  
+}
+.genious-img {
+  background: url(../images/genious_pic.png);
+  background-position: center center;
+  background-size: cover; 
+}
+.banner {
+  background-image: url("../images/cover-trees.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.covercontent {
+margin: 30px;}
+
+.cover-title-subtitle {
+  color: white;
+  display: block;
+  padding: 15px;
+}
+
+.cover-title-subtitle h2 {
+    letter-spacing: 2.5px;
+    text-shadow: -2px -2px 3px black, 0 1px black, 1px 0 black, 0 -1px black, 0px 0px 10px rgb(23, 51, 6),0px 0px 10px rgb(23, 51, 6),0px 0px 10px rgb(23, 51, 6),0px 0px 5px rgb(23, 51, 6),0px 0px 5px rgb(23, 51, 6),0px 0px 5px rgb(23, 51, 6),0px 0px 5px rgb(23, 51, 6),0px 0px 2.5px rgb(23, 51, 6),0px 0px 2.5px rgb(23, 51, 6);
+    font-weight: 900;
+}
+
+.cover-title-subtitle h3 {
+    
+    letter-spacing: 1.75px;
+    font-family: "Dancing Script", cursive;
+    text-shadow: -2px 2px 2px black, 0 1px black, 1px 0 black, 0 -1px black, 0px 0px 10px rgb(23, 51, 6),0px 0px 10px rgb(23, 51, 6),0px 0px 10px rgb(23, 51, 6), 0px 0px 5px rgb(23, 51, 6),0px 0px 5px rgb(23, 51, 6),0px 0px 2.5px rgb(23, 51, 6),0px 0px 2.5px rgb(23, 51, 6);
+}
+
+/* ---------------------------Cover table */
+
+.cover-table {
+    background-color: rgb(13 44 73 / 80%);
+    color: rgb(209 221 232 / .8);
+    }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.cover-table h6 {
+border-bottom: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  text-transform: uppercase
+  }
+
+  .cover-table td {
+        color: rgb(209 221 232 / .9);
+
+  }
