@@ -1,72 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>GeneologyConsultant</title>
-  </head>
-  <body>
-    <header id="title-div">
-      <!-- log provided by https://icons8.com/icons/set/tree -->
-      <img
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<title>GeneologyConsultant</title>
+</head>
+
+<body>
+	<header id="title-div">
+		<!-- log provided by https://icons8.com/icons/set/tree -->
+		<img
         id="logo"
         src="https://img.icons8.com/ios-filled/50/000000/tms-tree.png"
       />
-      <h1 id="site-title">Genious</h1>
-      <h3 id="site-subtitle">Geneology Consultant</h3>
-    </header>
+		<h1 id="site-title">Genious</h1>
+		<h3 id="site-subtitle">Geneology Consultant</h3>
+	</header>
 
-    <!-- cover -->
-    <div class="container">
-      <div class="row cover">
-        <div class="col-4 genious-img"></div>
-        <!-- This is the beggining of the everthing inside the tree image -->
-        <div class="col-8 genious-intro banner">
-          <!-- This is include title subtitle and speciaty table -->
-          <div class="covercontent">
-            <div class="row cover-title-subtitle">
-              <h2>John F. Smith</h2>
-              <h3>Geneology Specialist</h3>
-            </div>
+	<!-- cover -->
+	<div class="container">
+		<div class="row cover">
+			<div class="col-4 genious-img"></div>
+			<!-- This is the beggining of the everthing inside the tree image -->
+			<div class="col-8 genious-intro banner">
+				<!-- This is include title subtitle and speciaty table -->
+				<div class="covercontent">
+					<div class="row cover-title-subtitle">
+						<h2>John F. Smith</h2>
+						<h3>Geneology Specialist</h3>
+					</div>
 
-            <div class="cover-table">
-              <table>
-                <tr>
-                  <h6>Areas of Expertise</h6>
-                </tr>
-                <tr>
-                  <td>FamilySearch.com</td>
-                  <td>Ancestry.com</td>
-                </tr>
-                <tr>
-                  <td>Microfilms</td>
-                  <td>Portugal</td>
-                </tr>
-                <tr>
-                  <td>Spain</td>
-                  <td>Italy</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end cover -->
+					<div class="cover-table">
+						<table>
+							<tr>
+								<h6>Areas of Expertise</h6>
+							</tr>
+							<tr>
+								<td>FamilySearch.com</td>
+								<td>Ancestry.com</td>
+							</tr>
+							<tr>
+								<td>Microfilms</td>
+								<td>Portugal</td>
+							</tr>
+							<tr>
+								<td>Spain</td>
+								<td>Italy</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<!-- END of This is include title subtitle and speciaty table -->
+			</div>
+			<!-- END of This is the beggining of the everthing inside the tree image -->
+		</div>
+	</div>
+	<!-- end cover -->
 
-    <p>
-      Special thanks to
-      <a href="https://icons8.com/icon/34828/tms-tree"
-        >TMS Tree icon by Icons8</a
-      >
-      for providing the cool logo for this website
-    </p>
-  </body>
+	<!-- QUESTIONS this part of the code was taken and modified from https://mdbootstrap.com/snippets/jquery/marta-szymanska/1374185#js-tab-view -->
+	<div class="container my-5 px-5 pt-5 pb-4 z-depth-1">
+		<!--Section: Content-->
+		<section class="dark-grey-text">
+        <!-- Who question -->
+			<div class="row align-items-center">
+				<div class="col-lg-6 mb-4">
+					<h2 class="font-weight-normal mb-4">Who they were?</h2>
+					<p class="lead text-muted">
+						Find out the phisical traits from old relative.
+					</p>
+					<p class="text-muted">
+						This information can help you to understand why you look like the
+						you do and perhaps to find out how your can you posterity to look
+						like.
+					</p>
+				</div>
+
+				<div class="col-lg-6 mb-4">
+					<div id="mdb-lightbox-ui"></div>
+
+					<div class="d-grid mdb-lightbox">
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(10).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/old-family-portrait.jpg" alt="old-family-portrait.jpg"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(11).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/old-headshot.jpg" alt="old-headshot.jpg"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(12).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/old-family-bench.jpg" alt="old-family-bench.jpg"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(13).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/old-photos-multiple.jpg" alt="old-photos-multiple.jpg"
+                  />
+                </a>
+						</figure>
+					</div>
+				</div>
+			</div>
+        <!--  Where question-->
+			<div class="row align-items-center">
+				<div class="col-lg-6 mb-4">
+					<div id="mdb-lightbox-ui-2"></div>
+
+					<div class="d-grid mdb-lightbox">
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(10).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/where_castle.jpg" alt="European Castle Photo"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(11).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/where_africa.jpg" alt="Photo of African Animals"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(12).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/where_india.jpg" alt="Indian Building Photo"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(13).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/where_china.jpg" alt="Chinese Building Photo"
+                  />
+                </a>
+						</figure>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mb-4">
+					<h2 class="font-weight-normal mb-4">Where they came from?</h2>
+					<p class="lead text-muted">
+						Be surprised by the origin of your ancestors.
+					</p>
+					<p class="text-muted">
+						One of the greatest rewards in geneology is to find out the
+						where our ancestors came from. The element surprised in this
+						part of the geneology plays a strong role when we find out that
+						our anscestors came from some of the most unexpected places.
+					</p>
+				</div>
+			</div>
+        <!-- How they came from question -->
+			<div class="row align-items-center">
+				<div class="col-lg-6 mb-4">
+					<h2 class="font-weight-normal mb-4">How they came from?</h2>
+					<p class="lead text-muted">
+						Sailing, caravans, walking, driving, etc.
+					</p>
+					<p class="text-muted">
+						Find out how your relatives traveled. What were the routs they took and the challenges that they
+						overcame during those journey.
+					</p>
+				</div>
+
+				<div class="col-lg-6 mb-4">
+					<div id="mdb-lightbox-ui-3"></div>
+
+					<div class="d-grid mdb-lightbox">
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(10).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/how-ship.jpg" alt="Old Ship Photo"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(11).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/how-car.jpg" alt="Old Car Photo"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(12).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/how-train.jpg" alt="Old Train Photo"
+                  />
+                </a>
+						</figure>
+						<figure class="item">
+							<a href="https://mdbootstrap.com/img/Photos/Horizontal/Architecture/12-col/img%20(13).jpg"
+								class="z-depth-1 rounded" data-size="1600x1067">
+								<img
+                    src="assets/images/how-wagon.jpg" alt="Pioneer Wagon Photo"
+                  />
+                </a>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+		
+		</section>
+		<!--Section: Content-->
+	</div>
+	<!-- END - QUESTIONS -->
+
+	<p>
+		Special thanks to
+		<a href="https://icons8.com/icon/34828/tms-tree">TMS Tree icon by Icons8</a>
+		for providing the cool logo for this website
+	</p>
+</body>
+
+<script>
+	$(function () {
+      $("#mdb-lightbox-ui").load(
+        "https://mdbootstrap.com/wp-content/themes/mdbootstrap4/mdb-addons/mdb-lightbox-ui.html"
+      );
+    });
+</script>
+
 </html>

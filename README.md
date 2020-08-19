@@ -1,10 +1,10 @@
-Menu navigator      
-        remove the search
-Put shadows on the letters on the banner
-get wow working
+get workingleave pictures popping up for the end of the project
 
 Have people searching for the family name on the cover or menu navigator
 
+On the questions section, do I want to move the text to the right?
+
+diminish the size of the images to less than 500KB
 
 
 # ChildrenDaze.com
