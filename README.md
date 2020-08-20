@@ -6,6 +6,12 @@ On the questions section, do I want to move the text to the right?
 
 diminish the size of the images to less than 500KB
 
+Improve contact button
+
+contact white background and text on three side
+Mke contact page functional
+Fix link on contact page
+
 
 # ChildrenDaze.com
 
