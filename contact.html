@@ -1,107 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>GeneologyConsultant</title>
-  </head>
 
-  <body>
-    <header id="title-div">
-	<a id="heading-link" href="index.html">
-		<!-- log provided by https://icons8.com/icons/set/tree -->
-		<img
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<title>GeneologyConsultant</title>
+
+	<!-- emailjs -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+	      emailjs.init("user_12DQp4kWPN7CH4ScxL0G1");
+	   })();
+	</script>
+	<!-- end of email js -->
+</head>
+
+<body>
+	<header id="title-div">
+		<a href="index.html">
+			<!-- log provided by https://icons8.com/icons/set/tree -->
+			<img
 	        id="logo"
 	        src="https://img.icons8.com/ios-filled/50/000000/tms-tree.png"
 	      />
-		<h1 id="site-title">Genious</h1>
-		<h3 id="site-subtitle">Geneology Consultant</h3>
-	</a>
-    </header>
+			<h1 id="site-title">Genious</h1>
+			<h3 id="site-subtitle">Geneology Consultant</h3>
+		</a>
+	</header>
 
-    <!-- taken bootstrap https://mdbootstrap.com/snippets/jquery/marta-szymanska/1321112#js-tab-view and modified f -->
-    <div class="container z-depth-1 my-5 px-0">
-      <!--Section: Content-->
-      <section
-        class="my-md-5"
-        style="
+	<!-- taken bootstrap https://mdbootstrap.com/snippets/jquery/marta-szymanska/1321112#js-tab-view and modified f -->
+	<div class="container z-depth-1 my-5 px-0">
+		<!--Section: Content-->
+		<section class="my-md-5" style="
           background-image: url('assets/images/contact_tree.jpg');
           background-size: cover;
           background-position: center center;
-        "
-      >
-        <div class="rounded p-5">
-          <!-- Section heading -->
-          <h3 class="text-center font-weight-bold text-white mt-3 mb-5">
-            Contact Us
-          </h3>
+        ">
+			<div class="rounded p-5">
+				<!-- Section heading -->
+				<h3 class="text-center font-weight-bold text-white mt-3 mb-5">
+					Contact Us
+				</h3>
 
-          <form class="mx-md-5" action="">
-            <div class="row">
-              <div class="col-md-9 col-lg-7 col-lg-6 mb-4">
-                <div class="">
-                  <div class="px-4">
-                    <!-- Name -->
-                    <div class="md-form md-outline mt-0">
-                      <input type="text" id="name" class="form-control" />
-                      <label for="name">Your Name</label>
-                    </div>
-                    <!-- Email -->
-                    <div class="md-form md-outline">
-                      <input type="text" id="email" class="form-control" />
-                      <label for="email">Your Email Address</label>
-                    </div>
-                    <!-- Message -->
-                    <div class="md-form md-outline">
-                      <textarea
+				<form class="mx-md-5" action="" onsubmit="return sendMail(this);">
+					<div class="row">
+						<div class="col-md-9 col-lg-7 col-lg-6 mb-4">
+							<div class="">
+								<div class="px-4">
+									<!-- Name -->
+									<div class="md-form md-outline mt-0">
+										<input type="text" name="name" id="name" class="form-control" />
+										<label for="name">Your Name</label>
+									</div>
+									<!-- Email -->
+									<div class="md-form md-outline">
+										<input type="text" name="emailaddress" id="email" class="form-control" />
+										<label for="email">Your Email Address</label>
+									</div>
+									<!-- Message -->
+									<div class="md-form md-outline">
+										<textarea name="customermessage"
                         id="message"
                         class="md-textarea form-control"
                         rows="3"
                       ></textarea>
-                      <label for="message">Your Message</label>
-                    </div>
+										<label for="message">Your Message</label>
+									</div>
 
-                    <button
+									<button
                       type="submit"
                       class="btn btn-dark btn-md btn-block ml-0 mb-0"
                     >
                       Submit inquiry
                     </button>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="col-md-5 offset-md-1 mt-md-4 mb-4 white-text">
-                <div class="row">
-                <div class="col-6 ">
-                  <h5 class="font-weight-bold">Phone</h5>
-                  <p class="mb-4 pb-2">+ 01 234 567 89</p>
-                </div>
-                <div class="col-6 d-inline-block">
-                  <h5 class="font-weight-bold">Email</h5>
-                  <p>geneologygenious@gmail.com</p>
-                </div>
-				</div>
-              </div> -->
-            </div>
-          </form>
-        </div>
-      </section>
-      <!--Section: Content-->
-    </div>
-  </body>
+								</div>
+							</div>
+						</div>
 
-  <script>
-    $(function () {
-      $("#mdb-lightbox-ui").load(
-        "https://mdbootstrap.com/wp-content/themes/mdbootstrap4/mdb-addons/mdb-lightbox-ui.html"
-      );
-    });
-  </script>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!--Section: Content-->
+	</div>
+</body>
+
+<script src="assets/js/sendEmail.js"></script>
+
 </html>

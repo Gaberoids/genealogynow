@@ -35,12 +35,12 @@ body {
 
 /*  --------------------------- --------------------------- Heading */
 
-a #heading-link:hover {
-    /* color: black; */
+header a:hover {
     text-decoration: none;
+    color: black;
 }
 
-a #heading-link {
+header a {
     color: black;
 }
 

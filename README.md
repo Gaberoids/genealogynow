@@ -14,6 +14,13 @@ Fix link on contact page
 
 bug header link. CSS to turn color from blue to black does not work. Underline in hover = none not work as well
 
+Bug that I went around:
+- the custom css for the css selctor for <a> inside of header tag were not working when I style was applied by an id attributed. I removed the id from the a tag and made a "selector header a" 
+
+COntact page:
+Make a validation for email in the contact page
+give a message/alert saying that the message has been successfuly sent
+
 
 # ChildrenDaze.com
 
