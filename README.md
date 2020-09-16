@@ -21,6 +21,12 @@ COntact page:
 Make a validation for email in the contact page
 give a message/alert saying that the message has been successfuly sent
 
+change photos dimentions to better fit spaces on the QUestions section 
+
+remove the console logs ffrom the sendEmail.js
+
+geniusgenealogy@gmail.com
+codeacademyadmin
 
 # ChildrenDaze.com
 
