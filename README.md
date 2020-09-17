@@ -12,6 +12,8 @@ contact white background and text on three side
 Mke contact page functional
 Fix link on contact page
 
+add image to search
+
 bug header link. CSS to turn color from blue to black does not work. Underline in hover = none not work as well
 
 Bug that I went around:
@@ -27,6 +29,8 @@ remove the console logs ffrom the sendEmail.js
 
 geniusgenealogy@gmail.com
 codeacademyadmin
+
+menu line height
 
 # ChildrenDaze.com
 

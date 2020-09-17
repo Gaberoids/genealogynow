@@ -167,3 +167,7 @@ td {
   width: 100%;
   object-fit: cover;
 }
+
+.smallImg1, .smallImg2, .smallImg3{
+    cursor: zoom-in;
+}
