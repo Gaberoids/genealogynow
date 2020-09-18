@@ -22,7 +22,7 @@ Bug that I went around:
 COntact page:
 Make a validation for email in the contact page
 give a message/alert saying that the message has been successfuly sent
-
+icon for contact us - email
 change photos dimentions to better fit spaces on the QUestions section 
 
 remove the console logs ffrom the sendEmail.js
@@ -32,89 +32,103 @@ codeacademyadmin
 
 menu line height
 
-# ChildrenDaze.com
+# genealogygenius.com
 
-ChildrenDaze was designed to provide entertainment for internauts. The entertainment is in the form of stories where the main protagonists are children. In this website, people will be able to read stories and share their own. Also, the website will be used as media to raise funds for a charity campaign that has the goal to help children with cancer. The website has a simple and clean interface so people can focus in its content.
+This website was design to promote genealogy consulting services.
+
 ## UX
  
 1- Who this website is for?  
-Answer: This website is for people interested in family friendly entertainment related to children.
+Answer: This website is for people interested in family history, genealogy.
 
 2- What it is that users want to achieve in this website?  
-Answer: The user want to be inspired by innocenent children wisdom or laugh at funny things they say. Also, children can say quite adorable things and if the user is looking for some cozy and warm fillings, they will be able to find it on the website.
+Answer: The user would like to learn about the consultant's qualifications and about his own family history. 
+
 3- How your project is the best way to help them achieve these things?  
-Answer: There are other websites that provide the type of entertainment that childrendaze intend to offer. However, other websites focus are not based on only children experiences as this site is.
+Answer: There are other websites that provide consultant's fields of experties. Also, the website allow the user to see the content that the web has on his family name. 
 
 __User Stories:__   
   
 | User Action        | Goal          |
 | ------------- |:-------------:| 
-| User wants to read nice things online during his school break  | to relief stress | 
-| User wants to record a cool thing his daughter said     | To remember the cool things his daughter said while growing up      |  
-| User wants to share with the world something cool that his little son said | to show off how cool is his son      |
+| User wants to know if the consultant is qualified to help him   | find new names to his family tree | 
+| User wants a person to help him to get started with his family tree     | To get connected with anscesters      |  
+| User wants to search in the web for content on his family | to learn about his family history      |
 
   
 __Link to wireframe:__     
-- [Click here to see wireframe on PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/ms1gf/blob/master/assets/readmeDocs/MS1MockUp_ChildrenDaze.pdf)
+- [Click here to see wireframe on PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/genealogygenius/blob/master/assets/readme_files/GeneologyGeniusMockup.pdf)
 
 ## Features
  
 - ### Existing Features
     - Clickable buttons and links
-    - Forms
-    - Hamburger icon on mobile version 
-    - Modal window
+    - Form
+    - Photo gallery with zoom capability
+    - Navigation bar. Hamburger icon on mobile version 
+    - Send a message for consulgenealogy consultant
+    - Email validation on contact us page
     - Responsive Grid system
-    - Color effect on social media icons on the footer
-    - Jumbotron
-    - Animation on thumb up icons on index.html
+    - Website supported by jamine tests
     - icons and background image
 
 - ### Features Left to Implement
-    - Ability to register and login.
-    - User profile page.
-    - Ability to user to share his stories.
-    - ability to comment and like posts.
-    - in the index.html page, to add a section for add on the right side of the page as the wireframe shows.
+    - Ability to search in the web filtered by location.
+    - Improve the way images are display when they are zoomed in (index.html).
+    - Ability to user to visit consultant social media and share the site.
+    - Consultant reviews ( 3 reviews).
 
 ## Technologies Used
 
 [Bootstrap](https://getbootstrap.com/docs/4.0/utilities/display/) 
-    - The navigation bar and footer and login/register portions of the website were built with a template from **bootstrap** to speed up development. However, the template's layout and theme have been modified from its original version to blend those functionalities with the rest of the site.   
-    The homepage.html, charity.html, and about.html page's content/body section were built from scratch by me using HTML/CSS/Bootstrap.
+    - The navigation bar (in all pages), the photo gallery (Questions section) portions of the index.html, and contact us portion of contact.html page were built with a template from **bootstrap** to speed up development. However, the templates have been modified from its original for customization purposes.   
 
-[Fontawesome](https://fontawesome.com/)
-    - **Fontawesome** was used to style the fonts of the project.
+[Google Fonts](https://fonts.google.com/)
+    - **Google Fonts** was used to style the fonts of the project.
 
 [Viewport](https://www.w3schools.com/css/css_rwd_viewport.asp) 
     - Meta name **viewport** was also added in order to make the site responsive to different sizes of screen.
-a <link> was added to the site to make the site able to run JavaScript (thumbs up functionality required it.)
+
+[Javascript](https://www.javascript.com/)
+    - This technology was used to link APIs to the website (Google Search and Emailjs APIs)
+
+[Jequery](https://jquery.com/)
+    - This library was used to create an interactive User Interface (Zoom functionality found on the index.html "questions" sections)
+
+[Jasmine](https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework))
+    - This framework was used to test javascript code, such as the code that validate the email input text box found in the contact.html page 
+
   
-  [JQuery](https://jquery.com) and [Javascript](https://www.javascript.com/) - The project uses **JQuery and javascript** to make features responsive to customer's actions (thumbs up functionality required it).
+[JQuery](https://jquery.com) and [Javascript](https://www.javascript.com/) - The project uses **JQuery and javascript** to make features responsive to customer's actions (thumbs up functionality required it).
 
 
 ## Testing
 
-Automated tests were not performed.
+Automated tests
+1. Email validation
+    - go to https://8000-eca30e74-d9b7-4dbd-be27-4abfd6b0cef0.ws-us02.gitpod.io/tests.html to see test results.
+    - The link to the test file???
+    - The link to the page where the tested function is found???
 
+Non-automated tests
 1. Navigation bar:
     1. Go to the "Homapage" page
     2. Click on all links and buttons to see if they work and take the user to the pages they meant to go.
     3. Change the size of the screen to make sure that the navbar is presentable
     4. Click the links and button again in different size of screens to verify they still work (mainly when hamburger icon shows).
 
-2. Content section of homepage:
-    1. Go to the "Homepage" page
-    2. Make sure that the content is readable and properly laid out.
-    3. Click the "thumbs" to make sure that they work well in terms of functionality and effects.
+2. "Questions" section of homepage:
+    1. Go to the "Home" page (index.html)
+    2. Hover over the small pictures on the right side of the page and note the cursor turn into a magnifying glass.
+    3. Click the small pics and notice that they exchange position with with the pic placed on the bigger frame.  
     4. Change sizes of the screens to make sure that the site is still presentable and functional on those sizes.
 
-3. Content section of other pages:
-    1. Go to the "homepage" page and click on the link "Charity" from the navigation bar.
-    2. Make sure that the content is presentable in all sizes of screens and that the button work.
-    3. Click on the link "About Us" from the navigation bar.
+3. Search functionality:
+    1. Go to the "geniusSearch.html" page and type "Perger" inside the search box.
+    2. Note how the search return many results.
+    3. Note that the search resuts are related to the key words "Perger" (typed by user) plus "family" and "genealogy" (default key words).
     4. Make sure the content of the page is presentable in all sizes of screen.
-    5. Make sure that the text box are working on all sizes of the screen by typing text in them to make the digits shows there.
+    5. Make sure that the text box are working on all sizes of the screen by typing text in them and hitting enter.
 
     (*CLARIFICATION NOTE: Testing screen size means -> by increasing and decreasing the browser window and using developer tools to test site on mobile view.*)
 
