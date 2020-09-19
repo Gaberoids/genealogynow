@@ -135,76 +135,66 @@ Non-automated tests
 
 **The pages in this website will be more simple in the mobile view compared to desktop view. For example:**
 - links in the menu navigator will be replaced by the hamburger icon.
-- The footer portion related to social media, will present only the icons (no text "Social Media").
-- Content body sections were made with grid system bootstrap, which mean that, in mobile view or small screens, the column will be presented on top of each other as rows.
+- In the index.html, the head shot from consultant will be removed on mobile screen.
 
 **Bugs:**  
-The project had its challenges, but I was not able to identify bugs. Except for the two following bugs:
-- The browser when on a range of 450px-525px width, did not recognize the properties inside of CSS rule @media that included that width range. I redo the code using grid system and the issue got solved. My previous code that had the issue was built by me using the div and box system (without bootstrap grid system).
-- I had an issue where the footer was shown in the middle of the page about.html. I checked the developer tool and found that the footer was that way because because <html> default dimentions. I was able to fix the issue by adding bootstrap fixed-bottom class to the footer.
+The project had its challenges, but I was not able to identify bugs. 
 
 ## Deployment
 
-Link to the github repository https://github.com/Gaberoids/ms1gf .
+Link to the github repository https://github.com/Gaberoids/geneologygenious .
 
-Link to the deployed site https://gaberoids.github.io/ms1gf/ .
+Link to the deployed site https://gaberoids.github.io/geneologygenious/ .
 
 Deplyed and development versions have no differences.
 
 **Deployment steps:**
-1. Go to the link https://github.com/Gaberoids/ms1gf .
-2. Click the tab "Settings".
-3. Under the section "HUB Pages" click the dropdown button under "Source" and select "Master Branch".
-4. Go to under the "HUB Pages" section again, and click on the link. This link is the address to the deployed site.
-
-**Clone Steps:**
-1. Go to the link https://github.com/Gaberoids/ms1gf .
+1. Go to the link https://github.com/Gaberoids/geneologygenious .
 2. Click the tab "Settings".
 3. Under the section "HUB Pages" click the dropdown button under "Source" and select "Master Branch".
 4. Go to under the "HUB Pages" section again, and click on the link. This link is the address to the deployed site.
 
 **Cloning Repository steps:**
-1. On GitHub, navigate to the main page of the repository.
-2. Under the repository name, click Clone or download.
-3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click .
-4. Open Terminal.
-5. Change the current working directory to the location where you want the cloned directory.
-6. Type git clone, and then paste the URL you copied earlier.
-    - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-7. Press Enter to create your local clone.
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `Spoon-Knife`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
+1. Go to the link https://github.com/Gaberoids/geneologygenious .
+2. Click the the green button "Code".
+3. Select the option "Download Zip".
+(for more information on how to clone the repository, visit https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository)
 
-**Cloning a repository to GitHub Desktop steps:**
-1. On GitHub.
-2. Navigate to the main page of the repository.
-3. Under the repository name, click Clone or download.
-4. Clone or download button.
-5. To clone your repository in GitHub Desktop, under "Clone with HTTPS", click Open in Desktop
-6. Follow the prompts in GitHub Desktop to complete the clone.
 
 ## Credits
-- My tutor at code academy Moosa. He helped me with directions on how to fix my bugs or how to improve the visual presentation of the site.
+- My tutor at code academy Moosa. He helped me with directions on how to how to improve the visual presentation of the site and helped me with some the jasmine test.
+- Special thanks to [TMS Tree icon by Icons8](https://icons8.com/icon/34828/tms-tree) for providing the cool logo for this website.
 
 ### Content
-- The text for the section charity.html page was copied from the [American Childhood Cancer Organization](https://www.acco.org/donate/) site.
+- The content of this website is original.
 
-### Media
--  [Link to the picture source](https://unsplash.com/photos/yg1Zayn0Few)
-     from picture used in the charity.html (national-cancer-institute-yg1Zayn0Few-unsplash.jpg).
--   [Link to picture source](https://unsplash.com/photos/4K2lIP0zc_k)
-    picure used on the about.html page (childrendaze_about.jpg).
+### Media - Source of all pictures that are not original
+####Index.html page
+#####Cover
+- [cover-tree.jpg](https://www.freeimages.com/photo/trees-1393133)
+#####Question Section
+######How they look like?
+-  [old-headshot.jpg](https://www.freeimages.com/photo/old-framed-picture-1433232)
+-  [old-photos-multiple.jpg](https://www.freeimages.com/photo/old-photos-1434448)
+-  [old-family-bench](https://www.freeimages.com/photo/old-family-photo-2-1433934)
+-  [old-family-portrait](https://www.freeimages.com/photo/old-time-family-photo-1311342)
+######Where they came from?
+-  [where_castle.jpg](https://www.freeimages.com/photo/irish-abbey-1214069)
+-  [where_africa.jpg](https://www.freeimages.com/photo/africa-1406054)
+-  [where_india.jpg](https://www.freeimages.com/photo/taj-1307962)
+-  [where_china.jpg](https://www.freeimages.com/photo/theatre-stage-1235519)
+######How they came from?
+-  [how-wagon.jpg](https://unsplash.com/photos/QFhIVlX9wTs)
+-  [how-ship.jpg](https://www.freeimages.com/photo/sailing-ship-in-harbor-1450308)
+-  [how-train.jpg](https://www.freeimages.com/photo/steam-locomotive-1447997)
+-  [how-car.jpg](https://www.freeimages.com/photo/my-granny-in-old-car-1440617)
 
+###Contact.html page
+-  [contact-tree.jpg](https://www.freeimages.com/photo/tree-on-the-hill-1385676)
 
 ### Acknowledgements
 
 I received inspiration for this project from [Codeacademy](https://courses.codeinstitute.net/).
-- The modal functionality and the mobil hemburger buttons were built inspired on projects from the video classes from code institute (https://courses.codeinstitute.net/).
+- The modal functionality and the mobil hemburger buttons were built inspired on templates from bootstrap.
  
 
