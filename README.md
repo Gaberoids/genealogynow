@@ -1,36 +1,3 @@
-get workingleave pictures popping up for the end of the project
-
-Have people searching for the family name on the cover or menu navigator
-
-On the questions section, do I want to move the text to the right?
-
-diminish the size of the images to less than 500KB
-
-Improve contact button
-
-contact white background and text on three side
-Mke contact page functional
-Fix link on contact page
-
-add image to search
-
-bug header link. CSS to turn color from blue to black does not work. Underline in hover = none not work as well
-
-Bug that I went around:
-- the custom css for the css selctor for <a> inside of header tag were not working when I style was applied by an id attributed. I removed the id from the a tag and made a "selector header a" 
-
-COntact page:
-Make a validation for email in the contact page
-give a message/alert saying that the message has been successfuly sent
-icon for contact us - email
-change photos dimentions to better fit spaces on the QUestions section 
-
-remove the console logs ffrom the sendEmail.js
-
-geniusgenealogy@gmail.com
-codeacademyadmin
-
-menu line height
 
 # genealogygenius.com
 
@@ -98,7 +65,6 @@ __Link to wireframe:__
 [Jasmine](https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework))
     - This framework was used to test javascript code, such as the code that validate the email input text box found in the contact.html page 
 
-  
 [JQuery](https://jquery.com) and [Javascript](https://www.javascript.com/) - The project uses **JQuery and javascript** to make features responsive to customer's actions (thumbs up functionality required it).
 
 
@@ -106,9 +72,9 @@ __Link to wireframe:__
 
 Automated tests
 1. Email validation
-    - go to https://8000-eca30e74-d9b7-4dbd-be27-4abfd6b0cef0.ws-us02.gitpod.io/tests.html to see test results.
-    - The link to the test file???
-    - The link to the page where the tested function is found???
+    - go to https://gaberoids.github.io/geneologygenious/assets/readme_files/tests.html to see test results.
+    - The link to the test file: https://github.com/Gaberoids/geneologygenious/blob/master/assets/spec/calcSpecs.js .
+    - The link to the page where the function bein tested is found: https://github.com/Gaberoids/geneologygenious/blob/master/assets/js/calc.js .
 
 Non-automated tests
 1. Navigation bar:
@@ -130,6 +96,19 @@ Non-automated tests
     4. Make sure the content of the page is presentable in all sizes of screen.
     5. Make sure that the text box are working on all sizes of the screen by typing text in them and hitting enter.
 
+3. Contact us functionality (Mandatory fields, email validation, send email):
+    1. Go to "https://gaberoids.github.io/geneologygenious/contact.html" .
+    2. Without typing anything click "Submit Inquiry".
+    3. Note alert a click ok.
+    4. Type something in the text box for email and submit.
+    5. Click ok and delete the email text.
+    6. Type something in the message and submit.
+    7. Click ok and add an email address to the email input box and submit. This time, you should get a message that confirm that an email has been sent out.
+    8. To confirm that the email was sent go to gmail.com and log in with the following credentials:
+        - User name: geniusgenealogy@gmail.com
+        - Password: codeacademyadmin
+    9. Note that an email was received from the website contact page.
+
     (*CLARIFICATION NOTE: Testing screen size means -> by increasing and decreasing the browser window and using developer tools to test site on mobile view.*)
 
 
@@ -138,7 +117,7 @@ Non-automated tests
 - In the index.html, the head shot from consultant will be removed on mobile screen.
 
 **Bugs:**  
-The project had its challenges, but I was not able to identify bugs. 
+The project had its challenges, but I was not able to identify bugs. However, if I would have more time on this project, I would try to make it look better by adjusting its width.
 
 ## Deployment
 

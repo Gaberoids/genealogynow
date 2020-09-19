@@ -1,6 +1,5 @@
 
-// logic that validate the value
-console.log("the calc page is loading");
+// logic that validate the data entered at the contact page
 
 function validateEmail(email) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -30,7 +29,9 @@ function requiredField() {
         }
     }
     else {
+
         sendMail(contactForm);
+        ß
     }
 
 }

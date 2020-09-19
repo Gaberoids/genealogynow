@@ -34,7 +34,7 @@
 	</header>
 
 	<!-- navigator from bootstrap. see readme.md-->
-	<div class="container">
+	<div class="container" style="padding-right: 0px;">
 		<div class="row">
 			<div class="col-7 ml-auto">
 				<nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -71,19 +71,19 @@
 	<!-- END navigator -->
 
 	<!-- taken bootstrap https://mdbootstrap.com/snippets/jquery/marta-szymanska/1321112#js-tab-view and modified f -->
-	<div class="container z-depth-1 my-5 px-0">
+	<div class="container z-depth-1  px-0">
 		<!--Section: Content-->
-		<section class="my-md-5" style="
-          background-image: url('assets/images/contact_tree.jpg');
-          background-size: cover;
-          background-position: center center;
-        ">
+		<section style="
+	          background-image: url('assets/images/contact_tree.jpg');
+	          background-size: cover;
+	          background-position: center center;
+	        ">
 			<div class="rounded p-5">
 				<!-- Section heading -->
 				<h3 class="text-center font-weight-bold text-white mt-3 mb-5">
 					Contact Us
 				</h3>
-
+	
 				<form name="contactForm" class="mx-md-5" action="" onsubmit="requiredField(); return false;">
 					<div class="row">
 						<div class="col-md-9 col-lg-7 col-lg-6 mb-4">
@@ -91,34 +91,27 @@
 								<div class="px-4">
 									<!-- Name -->
 									<div class="md-form md-outline mt-0">
-										<input type="text" name="name" id="name" class="form-control" />
+										<input type="text" name="name" id="name" class="form-control">
 										<label for="name">Your Name</label>
 									</div>
 									<!-- Email -->
 									<div class="md-form md-outline">
-										<input type="text" name="emailaddress" id="email" class="form-control" />
+										<input type="text" name="emailaddress" id="email" class="form-control">
 										<label for="email">Your Email Address</label>
 									</div>
 									<!-- Message -->
 									<div class="md-form md-outline">
-										<textarea name="customermessage"
-				                        id="message"
-				                        class="md-textarea form-control"
-				                        rows="3"
-				                      ></textarea>
+										<textarea name="customermessage" id="message" class="md-textarea form-control" rows="3"></textarea>
 										<label for="message">Your Message</label>
 									</div>
-				
-									<button
-				                      type="submit"
-				                      class="btn btn-dark btn-md btn-block ml-0 mb-0"
-				                    >
-				                      Submit inquiry
-				                    </button>
+	
+									<button type="submit" class="btn btn-dark btn-md btn-block ml-0 mb-0">
+					                      Submit inquiry
+					                    </button>
 								</div>
 							</div>
 						</div>
-				
+	
 					</div>
 				</form>
 			</div>
@@ -136,5 +129,6 @@
 	integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
 </script>
 <script src="assets/js/sendEmail.js"></script>
+<script src="assets/js/calc.js" type="text/javascript"></script>
 
 </html>
