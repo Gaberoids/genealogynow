@@ -1,49 +1,50 @@
 
 # genealogygenius.com
 
-This website was design to promote genealogy consulting services.
+This website was designed to promote genealogy consulting services.
 
 ## UX
  
 1- Who this website is for?  
 Answer: This website is for people interested in family history, genealogy.
 
-2- What it is that users want to achieve in this website?  
-Answer: The user would like to learn about the consultant's qualifications and about his own family history. 
+2- What it is that users want to achieve with this website?  
+Answer: The user would like to learn about the consultant's qualifications and user's own family history. 
 
 3- How your project is the best way to help them achieve these things?  
-Answer: There are other websites that provide consultant's fields of experties. Also, the website allow the user to see the content that the web has on his family name. 
+Answer: The website informs users about consultant's fields of expertise. Also, the website allows the user to learn about his family history on his own via a search engine. 
 
 __User Stories:__   
   
 | User Action        | Goal          |
 | ------------- |:-------------:| 
-| User wants to know if the consultant is qualified to help him   | find new names to his family tree | 
-| User wants a person to help him to get started with his family tree     | To get connected with anscesters      |  
-| User wants to search in the web for content on his family | to learn about his family history      |
+| User wants to know if the consultant is qualified to help him   | to find new names to his family tree | 
+| User wants help  to get started with his family tree     | To get connected with his anscesters      |  
+| User wants to search for content about his family in the web | to learn about his family history      |
 
   
 __Link to wireframe:__     
-- [Click here to see wireframe on PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/genealogygenius/blob/master/assets/readme_files/GeneologyGeniusMockup.pdf)
+- [Click here to see wireframe in PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/geneologygenious/blob/master/README.md)
 
 ## Features
  
 - ### Existing Features
     - Clickable buttons and links
-    - Form
+    - Form Contact Us page
     - Photo gallery with zoom capability
     - Navigation bar. Hamburger icon on mobile version 
-    - Send a message for consulgenealogy consultant
+    - Send a message to genealogy consultant
     - Email validation on contact us page
     - Responsive Grid system
-    - Website supported by jamine tests
-    - icons and background image
+    - Website supported by jasmine tests
+    - Icons and background image
 
 - ### Features Left to Implement
     - Ability to search in the web filtered by location.
-    - Improve the way images are display when they are zoomed in (index.html).
-    - Ability to user to visit consultant social media and share the site.
+    - Improve the way images are displayed when they are zoomed in (index.html).
+    - Ability for users to visit consultant's social media and share the site.
     - Consultant reviews ( 3 reviews).
+    - More slick navigation bar
 
 ## Technologies Used
 
@@ -65,16 +66,15 @@ __Link to wireframe:__
 [Jasmine](https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework))
     - This framework was used to test javascript code, such as the code that validate the email input text box found in the contact.html page 
 
-[JQuery](https://jquery.com) and [Javascript](https://www.javascript.com/) - The project uses **JQuery and javascript** to make features responsive to customer's actions (thumbs up functionality required it).
 
 
 ## Testing
 
 Automated tests
 1. Email validation
-    - go to https://gaberoids.github.io/geneologygenious/assets/readme_files/tests.html to see test results.
+    - Go to https://gaberoids.github.io/geneologygenious/assets/readme_files/tests.html to see test results.
     - The link to the test file: https://github.com/Gaberoids/geneologygenious/blob/master/assets/spec/calcSpecs.js .
-    - The link to the page where the function bein tested is found: https://github.com/Gaberoids/geneologygenious/blob/master/assets/js/calc.js .
+    - The link to the page where the function being tested is found: https://github.com/Gaberoids/geneologygenious/blob/master/assets/js/calc.js .
 
 Non-automated tests
 1. Navigation bar:
@@ -83,18 +83,18 @@ Non-automated tests
     3. Change the size of the screen to make sure that the navbar is presentable
     4. Click the links and button again in different size of screens to verify they still work (mainly when hamburger icon shows).
 
-2. "Questions" section of homepage:
+2. "Questions" section of the homepage:
     1. Go to the "Home" page (index.html)
     2. Hover over the small pictures on the right side of the page and note the cursor turn into a magnifying glass.
-    3. Click the small pics and notice that they exchange position with with the pic placed on the bigger frame.  
+    3. Click the small pics and notice that they exchange position with with the pic placed on the big frame.  
     4. Change sizes of the screens to make sure that the site is still presentable and functional on those sizes.
 
 3. Search functionality:
     1. Go to the "geniusSearch.html" page and type "Perger" inside the search box.
-    2. Note how the search return many results.
-    3. Note that the search resuts are related to the key words "Perger" (typed by user) plus "family" and "genealogy" (default key words).
+    2. Note how the search returns many results.
+    3. Note that the search results are related to the key words "Perger" (typed by the user) plus "family" and "genealogy" (default key words).
     4. Make sure the content of the page is presentable in all sizes of screen.
-    5. Make sure that the text box are working on all sizes of the screen by typing text in them and hitting enter.
+    5. Make sure that the text box are working with all sizes of the screen by typing text in them and hitting enter.
 
 3. Contact us functionality (Mandatory fields, email validation, send email):
     1. Go to "https://gaberoids.github.io/geneologygenious/contact.html" .
@@ -103,7 +103,7 @@ Non-automated tests
     4. Type something in the text box for email and submit.
     5. Click ok and delete the email text.
     6. Type something in the message and submit.
-    7. Click ok and add an email address to the email input box and submit. This time, you should get a message that confirm that an email has been sent out.
+    7. Click ok and add an email address to the email input box and submit. This time, you should get a message that confirms that an email has been sent out.
     8. To confirm that the email was sent go to gmail.com and log in with the following credentials:
         - User name: geniusgenealogy@gmail.com
         - Password: codeacademyadmin
@@ -130,14 +130,14 @@ Deplyed and development versions have no differences.
 **Deployment steps:**
 1. Go to the link https://github.com/Gaberoids/geneologygenious .
 2. Click the tab "Settings".
-3. Under the section "HUB Pages" click the dropdown button under "Source" and select "Master Branch".
+3. Under the section "HUB Pages" click the drop down button under "Source" and select "Master Branch".
 4. Go to under the "HUB Pages" section again, and click on the link. This link is the address to the deployed site.
 
 **Cloning Repository steps:**
 1. Go to the link https://github.com/Gaberoids/geneologygenious .
-2. Click the the green button "Code".
+2. Click the green button "Code".
 3. Select the option "Download Zip".
-(for more information on how to clone the repository, visit https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository)
+(For more information on how to clone the repository, visit https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository)
 
 
 ## Credits
@@ -174,6 +174,6 @@ Deplyed and development versions have no differences.
 ### Acknowledgements
 
 I received inspiration for this project from [Codeacademy](https://courses.codeinstitute.net/).
-- The modal functionality and the mobil hemburger buttons were built inspired on templates from bootstrap.
+- The modal functionality and the Mobil hemburger buttons were built inspired on templates from bootstrap.
  
 
