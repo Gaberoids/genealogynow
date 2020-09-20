@@ -48,6 +48,7 @@ header a {
 
 .cover {
   height: 400px;
+  box-shadow: -4px 4px 5px #7d9295;
 }
 .genious-img {
   background: url(../images/genious_pic.png);
