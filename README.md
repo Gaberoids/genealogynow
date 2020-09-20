@@ -117,7 +117,7 @@ Non-automated tests
 - In the index.html, the head shot from consultant will be removed on mobile screen.
 
 **Bugs:**  
-The project had its challenges, but I was not able to identify bugs. However, if I would have more time on this project, I would try to make it look better by adjusting its width.
+- There is an error message on index.html. It says "Uncaught TypeError: Cannot read property 'step' of undefined.". According to my research, this error has to do with Jquery CDNs. This bug is not breaking the page right now, so I left it alone for now.
 
 ## Deployment
 
@@ -170,6 +170,9 @@ Deplyed and development versions have no differences.
 
 ###Contact.html page
 -  [contact-tree.jpg](https://www.freeimages.com/photo/tree-on-the-hill-1385676)
+
+###Search.html page
+-  [search-bk-image.jpg](https://www.freeimages.com/photo/old-family-photos-1423774)
 
 ### Acknowledgements
 
