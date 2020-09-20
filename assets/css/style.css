@@ -36,12 +36,12 @@ body {
 /*  --------------------------- --------------------------- Heading */
 
 header a:hover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 header a {
-    color: black;
+  color: black;
 }
 
 /*  --------------------------- --------------------------- Banner or cover */
@@ -168,6 +168,30 @@ td {
   object-fit: cover;
 }
 
-.smallImg1, .smallImg2, .smallImg3{
-    cursor: zoom-in;
+.smallImg1,
+.smallImg2,
+.smallImg3 {
+  cursor: zoom-in;
+}
+
+/* ---------------------------Search Page */
+
+.bk-img-search {
+  height: 400px;
+  width: 600px;
+  margin: 0 auto;
+
+  background-image: url("../images/search-bk-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.search-div {
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  padding-top: 50px;
+}
+
+.search-div h5 {
+    font-weight: bold;
 }
