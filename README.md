@@ -21,10 +21,12 @@ __User Stories:__
 | User wants to know if the consultant is qualified to help him   | to find new names to his family tree | 
 | User wants help  to get started with his family tree     | To get connected with his anscesters      |  
 | User wants to search for content about his family in the web | to learn about his family history      |
+| User wants to send a message to consultant  | To have his questions answered      |
+
 
   
 __Link to wireframe:__     
-- [Click here to see wireframe in PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/geneologygenious/blob/master/README.md)
+- [Click here to see wireframe in PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/genealogygenius/blob/master/assets/readme_files/GeneologyGeniusMockup.pdf)
 
 ## Features
  
@@ -40,11 +42,11 @@ __Link to wireframe:__
     - Icons and background image
 
 - ### Features Left to Implement
+    - To improve navigation bar style
     - Ability to search in the web filtered by location.
     - Improve the way images are displayed when they are zoomed in (index.html).
     - Ability for users to visit consultant's social media and share the site.
     - Consultant reviews ( 3 reviews).
-    - More slick navigation bar
 
 ## Technologies Used
 
@@ -60,7 +62,7 @@ __Link to wireframe:__
 [Javascript](https://www.javascript.com/)
     - This technology was used to link APIs to the website (Google Search and Emailjs APIs)
 
-[Jequery](https://jquery.com/)
+[Jquery](https://jquery.com/)
     - This library was used to create an interactive User Interface (Zoom functionality found on the index.html "questions" sections)
 
 [Jasmine](https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework))
@@ -72,9 +74,9 @@ __Link to wireframe:__
 
 Automated tests
 1. Email validation
-    - Go to https://gaberoids.github.io/geneologygenious/assets/readme_files/tests.html to see test results.
-    - The link to the test file: https://github.com/Gaberoids/geneologygenious/blob/master/assets/spec/calcSpecs.js .
-    - The link to the page where the function being tested is found: https://github.com/Gaberoids/geneologygenious/blob/master/assets/js/calc.js .
+    - Go to https://gaberoids.github.io/genealogygenius/assets/readme_files/tests.html to see test results.
+    - The link to the test file: https://github.com/Gaberoids/genealogygenius/blob/master/assets/spec/calcSpecs.js .
+    - The link to the page where the function being tested is found: https://github.com/Gaberoids/genealogygenius/blob/master/assets/js/calc.js .
 
 Non-automated tests
 1. Navigation bar:
@@ -97,7 +99,7 @@ Non-automated tests
     5. Make sure that the text box are working with all sizes of the screen by typing text in them and hitting enter.
 
 3. Contact us functionality (Mandatory fields, email validation, send email):
-    1. Go to "https://gaberoids.github.io/geneologygenious/contact.html" .
+    1. Go to "https://gaberoids.github.io/genealogygenius/contact.html" .
     2. Without typing anything click "Submit Inquiry".
     3. Note alert a click ok.
     4. Type something in the text box for email and submit.
@@ -121,20 +123,20 @@ Non-automated tests
 
 ## Deployment
 
-Link to the github repository https://github.com/Gaberoids/geneologygenious .
+Link to the github repository https://github.com/Gaberoids/genealogygenius .
 
-Link to the deployed site https://gaberoids.github.io/geneologygenious/ .
+Link to the deployed site https://gaberoids.github.io/genealogygenius/ .
 
 Deplyed and development versions have no differences.
 
 **Deployment steps:**
-1. Go to the link https://github.com/Gaberoids/geneologygenious .
+1. Go to the link https://github.com/Gaberoids/genealogygenius .
 2. Click the tab "Settings".
 3. Under the section "HUB Pages" click the drop down button under "Source" and select "Master Branch".
 4. Go to under the "HUB Pages" section again, and click on the link. This link is the address to the deployed site.
 
 **Cloning Repository steps:**
-1. Go to the link https://github.com/Gaberoids/geneologygenious .
+1. Go to the link https://github.com/Gaberoids/genealogygenius .
 2. Click the green button "Code".
 3. Select the option "Download Zip".
 (For more information on how to clone the repository, visit https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository)
@@ -148,31 +150,31 @@ Deplyed and development versions have no differences.
 - The content of this website is original.
 
 ### Media - Source of all pictures that are not original
-####Index.html page
-#####Cover
-- [cover-tree.jpg](https://www.freeimages.com/photo/trees-1393133)
-#####Question Section
-######How they look like?
--  [old-headshot.jpg](https://www.freeimages.com/photo/old-framed-picture-1433232)
--  [old-photos-multiple.jpg](https://www.freeimages.com/photo/old-photos-1434448)
--  [old-family-bench](https://www.freeimages.com/photo/old-family-photo-2-1433934)
--  [old-family-portrait](https://www.freeimages.com/photo/old-time-family-photo-1311342)
-######Where they came from?
--  [where_castle.jpg](https://www.freeimages.com/photo/irish-abbey-1214069)
--  [where_africa.jpg](https://www.freeimages.com/photo/africa-1406054)
--  [where_india.jpg](https://www.freeimages.com/photo/taj-1307962)
--  [where_china.jpg](https://www.freeimages.com/photo/theatre-stage-1235519)
-######How they came from?
--  [how-wagon.jpg](https://unsplash.com/photos/QFhIVlX9wTs)
--  [how-ship.jpg](https://www.freeimages.com/photo/sailing-ship-in-harbor-1450308)
--  [how-train.jpg](https://www.freeimages.com/photo/steam-locomotive-1447997)
--  [how-car.jpg](https://www.freeimages.com/photo/my-granny-in-old-car-1440617)
+* #### Index.html page
+    * ##### Cover
+        - [cover-tree.jpg](https://www.freeimages.com/photo/trees-1393133)
+    * ##### Question Section
+        * ###### How they look like?
+            -  [old-headshot.jpg](https://www.freeimages.com/photo/old-framed-picture-1433232)
+            -  [old-photos-multiple.jpg](https://www.freeimages.com/photo/old-photos-1434448)
+            -  [old-family-bench](https://www.freeimages.com/photo/old-family-photo-2-1433934)
+            -  [old-family-portrait](https://www.freeimages.com/photo/old-time-family-photo-1311342)
+        * ###### Where they came from?
+            -  [where_castle.jpg](https://www.freeimages.com/photo/irish-abbey-1214069)
+            -  [where_africa.jpg](https://www.freeimages.com/photo/africa-1406054)
+            -  [where_india.jpg](https://www.freeimages.com/photo/taj-1307962)
+            -  [where_china.jpg](https://www.freeimages.com/photo/theatre-stage-1235519)
+        * ###### How they came from?
+            -  [how-wagon.jpg](https://unsplash.com/photos/QFhIVlX9wTs)
+            -  [how-ship.jpg](https://www.freeimages.com/photo/sailing-ship-in-harbor-1450308)
+            -  [how-train.jpg](https://www.freeimages.com/photo/steam-locomotive-1447997)
+            -  [how-car.jpg](https://www.freeimages.com/photo/my-granny-in-old-car-1440617)
 
-###Contact.html page
--  [contact-tree.jpg](https://www.freeimages.com/photo/tree-on-the-hill-1385676)
+* ### Contact.html page
+    -  [contact-tree.jpg](https://www.freeimages.com/photo/tree-on-the-hill-1385676)
 
-###Search.html page
--  [search-bk-image.jpg](https://www.freeimages.com/photo/old-family-photos-1423774)
+* ### Search.html page
+    -  [search-bk-image.jpg](https://www.freeimages.com/photo/old-family-photos-1423774)
 
 ### Acknowledgements
 
