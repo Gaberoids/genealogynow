@@ -106,7 +106,7 @@ Non-automated tests
     5. Click ok and delete the email text.
     6. Type something in the message and submit.
     7. Click ok and add an email address to the email input box and submit. This time, you should get a message that confirms that an email has been sent out.
-    8. To confirm that the email was sent go to gmail.com and log in with the following credentials:
+    8. To confirm that the email was sent go to gmail.com, log in into gmail.com with the following credentials:
         - User name: geniusgenealogy@gmail.com
         - Password: codeacademyadmin
     9. Note that an email was received from the website contact page.

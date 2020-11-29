@@ -31,7 +31,6 @@ function requiredField() {
     else {
 
         sendMail(contactForm);
-        ß
     }
 
 }
