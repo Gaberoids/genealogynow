@@ -14,7 +14,7 @@ $(document).ready(function () {
         else {
             console.log("main equal to small" + "smallImg = " + smallImg + "///////" + "mainImg = " + mainImg);
         }
-    })
+    });
 
     //    logic that controls the images on the WHERE question section
     $(".smallImg2").on("click", function() {
@@ -30,7 +30,7 @@ $(document).ready(function () {
         else {
             console.log("main equal to small" + "smallImg = " + smallImg + "///////" + "mainImg = " + mainImg);
         }
-    })
+    });
 
 
         //    logic that controls the images on the HOW question section
@@ -47,5 +47,5 @@ $(document).ready(function () {
         else {
             console.log("main equal to small" + "smallImg = " + smallImg + "///////" + "mainImg = " + mainImg);
         }
-    })
-})
+    });
+});
