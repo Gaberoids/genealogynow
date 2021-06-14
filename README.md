@@ -1,5 +1,5 @@
 
-# genealogygenius.com
+# genealogynow.life
 
 This website was designed to promote genealogy consulting services.
 
@@ -26,7 +26,7 @@ __User Stories:__
 
   
 __Link to wireframe:__     
-- [Click here to see wireframe in PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/genealogygenius/blob/master/assets/readme_files/GeneologyGeniusMockup.pdf)
+- [Click here to see wireframe in PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/genealogynow/blob/master/assets/readme_files/GeneologyGeniusMockup.pdf)
 
 ## Features
  
@@ -74,9 +74,9 @@ __Link to wireframe:__
 
 Automated tests
 1. Email validation
-    - Go to https://gaberoids.github.io/genealogygenius/assets/readme_files/tests.html to see test results.
-    - The link to the test file: https://github.com/Gaberoids/genealogygenius/blob/master/assets/spec/calcSpecs.js .
-    - The link to the page where the function being tested is found: https://github.com/Gaberoids/genealogygenius/blob/master/assets/js/calc.js .
+    - Go to https://gaberoids.github.io/genealogynow/assets/readme_files/tests.html to see test results.
+    - The link to the test file: https://github.com/Gaberoids/genealogynow/blob/master/assets/spec/calcSpecs.js .
+    - The link to the page where the function being tested is found: https://github.com/Gaberoids/genealogynow/blob/master/assets/js/calc.js .
 
 Non-automated tests
 1. Navigation bar:
@@ -99,7 +99,7 @@ Non-automated tests
     5. Make sure that the text box are working with all sizes of the screen by typing text in them and hitting enter.
 
 3. Contact us functionality (Mandatory fields, email validation, send email):
-    1. Go to "https://gaberoids.github.io/genealogygenius/contact.html" .
+    1. Go to "https://gaberoids.github.io/genealogynow/contact.html" .
     2. Without typing anything click "Submit Inquiry".
     3. Note alert a click ok.
     4. Type something in the text box for email and submit.
@@ -123,20 +123,20 @@ Non-automated tests
 
 ## Deployment
 
-Link to the github repository https://github.com/Gaberoids/genealogygenius .
+Link to the github repository https://github.com/Gaberoids/genealogynow .
 
-Link to the deployed site https://gaberoids.github.io/genealogygenius/ .
+Link to the deployed site https://gaberoids.github.io/genealogynow/ .
 
 Deplyed and development versions have no differences.
 
 **Deployment steps:**
-1. Go to the link https://github.com/Gaberoids/genealogygenius .
+1. Go to the link https://github.com/Gaberoids/genealogynow .
 2. Click the tab "Settings".
 3. Under the section "HUB Pages" click the drop down button under "Source" and select "Master Branch".
 4. Go to under the "HUB Pages" section again, and click on the link. This link is the address to the deployed site.
 
 **Cloning Repository steps:**
-1. Go to the link https://github.com/Gaberoids/genealogygenius .
+1. Go to the link https://github.com/Gaberoids/genealogynow .
 2. Click the green button "Code".
 3. Select the option "Download Zip".
 (For more information on how to clone the repository, visit https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository)
