@@ -1,18 +1,54 @@
 
 # genealogynow.life
 
-This website was designed to promote genealogy consulting services.
+- http://www.genealogynow.life/: This website was designed to promote genealogy consulting and services.
+
+
+## Author
+Gabriel Perguer Figueiro
+
+
+## Project Overview
+- Include a picture of site that shows it in responsive states and links to deployed code: http://www.genealogynow.life/
+- 
+- This website is designed sell genealogy services and to motivate the users to get into genealogy. This website is efficient to sell the genealogy consulting and services because it informs the customers about the consultant skills and by providing an easy way for customers to reach out to the consultant.
+The website also is meant to boost the user interest to family history by providing questions and answers that tickles human's curiosity. The website also provide a customized google search tool that is meant to remind people that there is a lot that they can learn about their family history with a simple google search.
+
+## HOW TO USE
+In the home page (http://www.genealogynow.life/), the major actions are:
+- Use of the menu for navigating the site.
+- Hover over element on the site to know if they can be clicked
+- The header provide the title, logo, and subtitle.
+- The cover picture introduce the geneology consultant and provide information to the user about the consultant skills.
+- Below the cover there is the trigger questions. Click on each question to see the answer and the pictures related to it. Click a second time to close the question.
+- Below the questions there is a carrossel that contains the reviews from previous customer. Click on the ??? arrows or on the dots on the carrossel to switch content.
+- ??? button to contact page.
 
 ## UX
  
+### Strategy
+I met a person who's hobbie was genealogy and he was really good at it. A lot of people would look for him for advices related to the topic. This hobbiest realized that he could make some money out of his hobbie. In order to make some money, he would have to transform his hobby into a business. He decided to start his business using this website to promote him.
+
+### Scope
+Ultimately this website will be enhanced with updated with consultant new skills and it will contain more built in tools for people to perform more personal research activity in the site. For instance, there are plase to add APIs to the website that are specifically related to Genealogy.
+Since the website main porpose is to promote genealogy service consulting business, the basic information about the service and a way to contact the service provider was a must for the minimal viable product. I additional to these basic functionalies, the trigger questions and the google search release were added to hopefully increase the users' interest for investing on family history.
+
+### Project Goals
+The of this site is to provide the consultant with a tool to promote his business. The site is a good option for promotion of a business because most of the people uses the internet as a tool to search for services.
+
+#### User Goals (to be continue here)
+- To get advices about genealogy.
+- To find someone to work on their family tree or family history.
+
+### Users Analysis
 1- Who this website is for?  
 Answer: This website is for people interested in family history, genealogy.
 
 2- What it is that users want to achieve with this website?  
-Answer: The user would like to learn about the consultant's qualifications and user's own family history. 
+Answer: The user is searching for help to make progress on his own genealogy efforts. 
 
 3- How your project is the best way to help them achieve these things?  
-Answer: The website informs users about consultant's fields of expertise. Also, the website allows the user to learn about his family history on his own via a search engine. 
+Answer: The website informs users about consultant's fields of expertise. Also, the website reminds the users that they can use a common technologic tool such as google search to help them out on family history. 
 
 __User Stories:__   
   
