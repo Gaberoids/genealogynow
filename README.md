@@ -14,27 +14,28 @@ Gabriel Perguer Figueiro
 - This website is designed sell genealogy services and to motivate the users to get into genealogy. This website is efficient to sell the genealogy consulting and services because it informs the customers about the consultant skills and by providing an easy way for customers to reach out to the consultant.
 The website also is meant to boost the user interest to family history by providing questions and answers that tickles human's curiosity. The website also provide a customized google search tool that is meant to remind people that there is a lot that they can learn about their family history with a simple google search.
 
-## HOW TO USE
-In the home page (http://www.genealogynow.life/), the major actions are:
-- Use of the menu for navigating the site.
-- Hover over element on the site to know if they can be clicked
-- The header provide the title, logo, and subtitle.
-- The cover picture introduce the geneology consultant and provide information to the user about the consultant skills.
-- Below the cover there is the trigger questions. Click on each question to see the answer and the pictures related to it. Click a second time to close the question.
-- Below the questions there is a carrossel that contains the reviews from previous customer. Click on the ??? arrows or on the dots on the carrossel to switch content.
-- ??? button to contact page.
+### Strategy
+I met a person who's hobbie was genealogy and he was really good at it. A lot of people would look for him for advices related to the topic. This hobbist realized that he could profit out of his hobbie. In order to make some profit, he would have to transform his hobby into a business. He decided to start his business using this website to promote him.
 
 ## UX
- 
-### Strategy
-I met a person who's hobbie was genealogy and he was really good at it. A lot of people would look for him for advices related to the topic. This hobbiest realized that he could make some money out of his hobbie. In order to make some money, he would have to transform his hobby into a business. He decided to start his business using this website to promote him.
 
 ### Scope
 Ultimately this website will be enhanced with updated with consultant new skills and it will contain more built in tools for people to perform more personal research activity in the site. For instance, there are plase to add APIs to the website that are specifically related to Genealogy.
-Since the website main porpose is to promote genealogy service consulting business, the basic information about the service and a way to contact the service provider was a must for the minimal viable product. I additional to these basic functionalies, the trigger questions and the google search release were added to hopefully increase the users' interest for investing on family history.
+Since the website main porpose is to promote genealogy service consulting business, the basic information about the service and a way to contact the service provider was a must for the minimal viable product. I additional to these basic functionalies, the trigger questions and the google search release were added to hopefully increase the users' interest for investing on family history. 
 
 ### Project Goals
-The of this site is to provide the consultant with a tool to promote his business. The site is a good option for promotion of a business because most of the people uses the internet as a tool to search for services.
+- The goal of this site is to provide the consultant with a tool to promote his business. It is also meant to people looking for assistance on their genealogy work.
+- The will inform users about the type of assistance they can get from the genealogy expert. It will have sections for users to check on the expert's skill set and customers reviews. 
+- The site should also allow the users to reach out to the consultant via website's email tool.
+- This site also has the goal to boots users interest in genealogy via inspiring questions and using a customized google search tool. 
+
+### Developer Goals
+- To produce a website that will be easy to navigate 
+- To produce a website that will be easy to read. It should be informative but using the least amount of words possible.
+- That will be interactive. The pages will respond to users actions such as mouse hoovering or clicking buttons.
+
+### Website Owner Goals
+The owner of this website intend to use this webiste to promote genealogy services in exchange for a fee. 
 
 ### Users Analysis
 1- Who this website is for?  
@@ -44,7 +45,7 @@ Answer: This website is for people interested in family history and genealogy. I
 Answer: The user is searching for help to make progress on his own genealogy efforts. 
 
 3- How your project is the best way to help them achieve these things?  
-Answer: The website informs users about consultant's fields of expertise. Also, the website reminds the users that they can use a common technologic tool such as google search to help them out on family history. 
+Answer: The website informs users about consultant's fields of expertise. Also, the website reminds the users that they can use a common technologic tool such as google search to help them out on family history.
 
 #### User Goals
 > - New users:
@@ -57,6 +58,16 @@ Answer: The website informs users about consultant's fields of expertise. Also, 
 - They would like to reconect with genealogy consultant.
 - They want hire an expert to do the work that they cannot do or dont have time to do it.
 - They want hire an expert to teach them about what is the latest technologies or how to better use the available technologies in their behalf.
+
+## HOW TO USE
+In the home page (http://www.genealogynow.life/), the major actions are:
+- Use of the menu for navigating the site.
+- Hover over element on the site to know if they can be clicked
+- The header provide the title, logo, and subtitle.
+- The cover picture introduce the geneology consultant and provide information to the user about the consultant skills.
+- Below the cover there is the trigger questions. Click on each question to see the answer and the pictures related to it. Click a second time to close the question.
+- Below the questions there is a carrossel that contains the reviews from previous customer. Click on the ??? arrows or on the dots on the carrossel to switch content.
+- ??? button to contact page.
 
 
 __User Stories:__   
