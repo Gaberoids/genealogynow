@@ -9,7 +9,7 @@ Gabriel Perguer Figueiro
 
 
 ## Project Overview
-- Include a picture of site that shows it in responsive states and links to deployed code: http://www.genealogynow.life/
+- ???Include a picture of site that shows it in responsive states and links to deployed code: http://www.genealogynow.life/
 - 
 - This website is designed sell genealogy services and to motivate the users to get into genealogy. This website is efficient to sell the genealogy consulting and services because it informs the customers about the consultant skills and by providing an easy way for customers to reach out to the consultant.
 The website also is meant to boost the user interest to family history by providing questions and answers that tickles human's curiosity. The website also provide a customized google search tool that is meant to remind people that there is a lot that they can learn about their family history with a simple google search.
@@ -36,19 +36,28 @@ Since the website main porpose is to promote genealogy service consulting busine
 ### Project Goals
 The of this site is to provide the consultant with a tool to promote his business. The site is a good option for promotion of a business because most of the people uses the internet as a tool to search for services.
 
-#### User Goals (to be continue here)
-- To get advices about genealogy.
-- To find someone to work on their family tree or family history.
-
 ### Users Analysis
 1- Who this website is for?  
-Answer: This website is for people interested in family history, genealogy.
+Answer: This website is for people interested in family history and genealogy. It is for users looking to get advices about genealogy from experts on the field. It is for someone who wants to hire an expert to work on their family three or family history. 
 
 2- What it is that users want to achieve with this website?  
 Answer: The user is searching for help to make progress on his own genealogy efforts. 
 
 3- How your project is the best way to help them achieve these things?  
 Answer: The website informs users about consultant's fields of expertise. Also, the website reminds the users that they can use a common technologic tool such as google search to help them out on family history. 
+
+#### User Goals
+> - New users:
+- They want a genealogy expert to give them advices on how to increase the size of their genealogy three.
+- The want an expert to teach them what are the best available tools for genealogy work.
+- They want an expert to train them on how to use tools that will help them on their genealogy efforts.
+- They want to hire an expert to work on their genealogy.
+
+> - Returning users:
+- They would like to reconect with genealogy consultant.
+- They want hire an expert to do the work that they cannot do or dont have time to do it.
+- They want hire an expert to teach them about what is the latest technologies or how to better use the available technologies in their behalf.
+
 
 __User Stories:__   
   
