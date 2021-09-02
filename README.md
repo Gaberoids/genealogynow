@@ -40,6 +40,17 @@ The owner of this website intend to use this webiste to promote genealogy servic
 ### Users Analysis
 1- Who this website is for?  
 Answer: This website is for people interested in family history and genealogy. It is for users looking to get advices about genealogy from experts on the field. It is for someone who wants to hire an expert to work on their family three or family history. 
+According to the consultant that has been working in genealogy for a decade, the vast majory of people interested in genealogy, fits the following profile:
+- They are in there second half part of their life spam (Older than 35 years old. average of 60 years old)
+- They are family oriented.
+- They have stable lifes.
+- Spend a lot of time at home with family instead of practicing intense phisical activities in outdoors.
+- The people that look for consultants assistances are usually not not really good with modern technology.
+- They are median to high income type of people.
+- They find genealogy a delightful and peaceful activity.
+- They are atracted by old pictures of old relatives.
+- They are atracted by the surprising findings such as relatives that comes from unexpected places of the planet.
+- They like to lear stories about their ancesters such as their accomplishments, travels, and dramitic or love stories stories.
 
 2- What it is that users want to achieve with this website?  
 Answer: The user is searching for help to make progress on his own genealogy efforts. 
@@ -53,12 +64,88 @@ Answer: The website informs users about consultant's fields of expertise. Also, 
 - The want an expert to teach them what are the best available tools for genealogy work.
 - They want an expert to train them on how to use tools that will help them on their genealogy efforts.
 - They want to hire an expert to work on their genealogy.
+- They want to check if the expert skills and experience will help them to improve their genealogy.
 
 > - Returning users:
 - They would like to reconect with genealogy consultant.
 - They want hire an expert to do the work that they cannot do or dont have time to do it.
 - They want hire an expert to teach them about what is the latest technologies or how to better use the available technologies in their behalf.
 
+__User Stories:__   
+  
+| User Action        | Goal          |
+| ------------- |:-------------:| 
+| User reads about the consultant skill set   | to know if the consultant has the skills he is looking for| 
+| User reads the reviews     | To know how past customers felt about their experience with the consultant       |  
+| User searches google using his ancestors names as key search terms | to see if there is new content about his family in the internet      |
+| User sends a message to consultant  | To have his questions answered or to hire consultant's services     |
+
+## Design Choices
+
+### Colors
+- Base colors
+  - Neutral colors such as white black, tones of gray
+    - Those colors were choosen as the base colors because the pages will have pictures with a variaty of colors and a neutral back ground will not interfear with pics. It does not draw the attention from the main pics which are key elements to draw to increse user interest in genealogy and faily history. The colors decision was based on the target audience for the website. Family history photos are one of the most rewarding results from genenalogy.
+
+### Typography (???):
+  - Font style:
+    - the fonts were inspired from websites meant for high income audience. This choice was based on the fact that the target audience for genealogy consulting is medium or higher income audience.
+  - Font size: 
+    - The font on the top of the index.html page is the biggest because it is title of the page
+    - Below the title there is the subtitle.
+    
+    - Title and subtitle are the biggest latters because they are the brand of the business and they give the user a clue of what is the website about.
+    
+    - the title of the site and under the text Lauri Figueiro name are in cursive font type . this is because those fonts are classy and this site supposed to have a high end feeling due to its target market which are middle or higher income.
+    - pics
+
+- the trigger questions are written in very large size because it is supposed to draw attention to the content associated to it.
+- The letters they become smaller as the number of characters in it, increases.
+- Bigger letters are meant to draw the users attention.
+- Smaller carachters are meant to be more informative.
+
+
+    - 
+    - Font types for 
+      - the title of the site and under the text Lauri Figueiro are in cursive font for historical and branding type for branding purposes. Genealogy is about study of the past and many documents on the past were written with cursive letters. Also, cursive letters are adobted by heigh end websites or brands. Since the target market are middle or higher income, the cusive letter becames a good alternative.
+      - 
+  - how fonts ties into users' emotions or target audience
+  - include screenshots of fonts used and links to the appropriate
+
+### Design Elements
+Elements used in this website:
+- top menu (desktop navigation)
+- Hamburger icon menu (mobile navigation)
+- footer(???- yes but do I want to add a real footer)
+- containers
+- button html tag
+- text input
+- textarea HTML element
+- modal
+- accordions
+- images
+- tooltips
+- icons
+- contact form
+- carousel ??? (https://www.w3schools.com/howto/howto_js_slideshow.asp)
+- Others: div, paragraphs, head, title, script, body, link (<a>), header, headings, unordered list, label, section, html, figure, meta.
+
+### Images
+Explain why you used certain icons and images on your site
+
+- Banner image and contact us images:
+  The image on the banner and on the contact page are base on the phylosofical side of genealogy. It satifies basic human curiosity (http://www.genealogyintime.com/articles/why-genealogy-is-important-page3.html):
+  1- The past - Where do I come from?
+  2- The present - Why I am here?
+  3- The future - What is going to happen to me?
+Both images shows locations with proper scenario for a phylosofical experience.  Also, a huge part of the genealogy is the family tree. For these reasons there are trees on the those images. See images below(???):
+  
+ - Trigger question's images: The images on the trigger questions were placed there because they have to do with the trigger questions.Those pictures they also look old on purpose. This is because genealogy has a lot to do with the past.
+  
+- Search page images: these pictures are old looking pictures to inspire people to look for pictures using the search tool.
+
+ - The logo was picked because it look like there is a tree that is usually associated to genealogy trees.
+  
 ## HOW TO USE
 In the home page (http://www.genealogynow.life/), the major actions are:
 - Use of the menu for navigating the site.
@@ -68,18 +155,6 @@ In the home page (http://www.genealogynow.life/), the major actions are:
 - Below the cover there is the trigger questions. Click on each question to see the answer and the pictures related to it. Click a second time to close the question.
 - Below the questions there is a carrossel that contains the reviews from previous customer. Click on the ??? arrows or on the dots on the carrossel to switch content.
 - ??? button to contact page.
-
-
-__User Stories:__   
-  
-| User Action        | Goal          |
-| ------------- |:-------------:| 
-| User wants to know if the consultant is qualified to help him   | to find new names to his family tree | 
-| User wants help  to get started with his family tree     | To get connected with his anscesters      |  
-| User wants to search for content about his family in the web | to learn about his family history      |
-| User wants to send a message to consultant  | To have his questions answered      |
-
-
   
 __Link to wireframe:__     
 - [Click here to see wireframe in PDF format. This should take you to the file stored on github repository](https://github.com/Gaberoids/genealogynow/blob/master/assets/readme_files/GeneologyGeniusMockup.pdf)
