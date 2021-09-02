@@ -89,28 +89,16 @@ __User Stories:__
 
 ### Typography (???):
   - Font style:
-    - the fonts were inspired from websites meant for high income audience. This choice was based on the fact that the target audience for genealogy consulting is medium or higher income audience.
+    -the title of the site and under the text Lauri Figueiro are in cursive font for historical and branding  branding purposes. Genealogy is about study of the past and many documents on the past were written with cursive letters. Also, cursive letters are adobted by high end websites or brands. Since the target market are middle or higher income, the type of letters that are found on high end websites becames a good alternative to this project.
+      - Tittle and subtitle font family: Dancing Script
+      - ![Fonts_Tittle_subtittle](https://user-images.githubusercontent.com/47679109/131791638-63c565a0-446d-4023-9f29-5e1410ce95a5.png)
+
   - Font size: 
-    - The font on the top of the index.html page is the biggest because it is title of the page
-    - Below the title there is the subtitle.
+    - Bigger letters are meant to draw the users attention. Also, they are meant to give the users an idea of what the content attached to them is about.
+    - The font size become smaller as the text informative purpose increases. The more informative is , more wordy the text gets.
+    - Title, subtitle and trigger questions are the biggest latters because they are the brand of the business or they suppost to get people's attention.
+    - image???
     
-    - Title and subtitle are the biggest latters because they are the brand of the business and they give the user a clue of what is the website about.
-    
-    - the title of the site and under the text Lauri Figueiro name are in cursive font type . this is because those fonts are classy and this site supposed to have a high end feeling due to its target market which are middle or higher income.
-    - pics
-
-- the trigger questions are written in very large size because it is supposed to draw attention to the content associated to it.
-- The letters they become smaller as the number of characters in it, increases.
-- Bigger letters are meant to draw the users attention.
-- Smaller carachters are meant to be more informative.
-
-
-    - 
-    - Font types for 
-      - the title of the site and under the text Lauri Figueiro are in cursive font for historical and branding type for branding purposes. Genealogy is about study of the past and many documents on the past were written with cursive letters. Also, cursive letters are adobted by heigh end websites or brands. Since the target market are middle or higher income, the cusive letter becames a good alternative.
-      - 
-  - how fonts ties into users' emotions or target audience
-  - include screenshots of fonts used and links to the appropriate
 
 ### Design Elements
 Elements used in this website:
