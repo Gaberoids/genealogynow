@@ -81,6 +81,7 @@ header a {
     0px 0px 5px rgb(23, 51, 6), 0px 0px 2.5px rgb(23, 51, 6),
     0px 0px 2.5px rgb(23, 51, 6);
   font-weight: 900;
+  margin-bottom: 22px;
 }
 
 .cover-title-subtitle h3 {
@@ -91,6 +92,7 @@ header a {
     0px 0px 10px rgb(23, 51, 6), 0px 0px 5px rgb(23, 51, 6),
     0px 0px 5px rgb(23, 51, 6), 0px 0px 2.5px rgb(23, 51, 6),
     0px 0px 2.5px rgb(23, 51, 6);
+    margin-bottom: 22px;
 }
 
 /* ---------------------------Cover table */
