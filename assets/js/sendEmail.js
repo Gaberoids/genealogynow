@@ -12,7 +12,8 @@ function sendMail(contactForm) {
         .then(
             function (response) {
                 console.log("SUCCESS", response);
-                alert("Thanks for your message. I'll review it and get back to you as soon as possible");
+                alert("Thanks for your message. I'll review it and get back to you, via email, as soon as possible");
+                contactForm.reset();
             },
             function (error) {
                 console.log("FAILED", error);
@@ -20,4 +21,3 @@ function sendMail(contactForm) {
             });
     return false;  // block reload page
 }
-
